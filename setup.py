@@ -22,11 +22,10 @@ setup(
     install_requires=requirements,
     license='MIT',
     description='Connect to Ollama API',
-    long_description=readme,
+    long_description=readme(),
     author='Howw0',
     url='https://github.com/Howw0/ollamaAPI',
     download_url='https://github.com/Howw0/ollamaAPI.git',
     keywords='ollama',
     classifiers=classifiers,
-    packages=find_packages()
     )
