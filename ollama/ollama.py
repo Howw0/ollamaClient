@@ -2,7 +2,7 @@ import requests
 import json
 import base64 
 
-class Ollama:
+class OllamaAPI:
     '''Connect to the Ollama API
 
     Args:
