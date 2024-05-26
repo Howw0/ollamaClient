@@ -6,7 +6,7 @@ class OllamaAPI:
     '''Connect to the Ollama API
 
     Args:
-        url (str): The url of the LibreTranslate endpoint.
+        url (str): The url of the Ollama endpoint.
         api_key (str): The API key.
 
     '''
