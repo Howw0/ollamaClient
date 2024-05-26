@@ -18,7 +18,7 @@ classifiers = [
 setup(
     name='ollama',
     packages=find_packages(),
-    version='0.0.1',
+    version='1.0.0',
     install_requires=requirements,
     license='MIT',
     description='Connect to Ollama API',
