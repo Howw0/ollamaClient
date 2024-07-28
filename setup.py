@@ -24,8 +24,8 @@ setup(
     description='Connect to Ollama API',
     long_description=readme(),
     author='Howw0',
-    url='https://github.com/Howw0/ollamaAPI',
-    download_url='https://github.com/Howw0/ollamaAPI.git',
+    url='https://github.com/Howw0/ollamaClient',
+    download_url='https://github.com/Howw0/ollamaClient.git',
     keywords='ollama',
     classifiers=classifiers,
     )
