@@ -2,7 +2,7 @@ import requests
 import json
 import base64 
 
-class OllamaAPI:
+class OllamaClient:
     '''Connect to the Ollama API
 
     Args:
@@ -103,7 +103,7 @@ class OllamaAPI:
         return encoded_images
 
 '''
-ollama_instance = OllamaAPI()
+ollama_instance = OllamaClient()
 list0 = []
 with open(r'test.jpg', 'rb') as image_file:
     image_content = image_file.read()
